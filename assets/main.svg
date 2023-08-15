@@ -1,0 +1,55 @@
+
+<svg fill="none" width="900" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+    
+      <style>
+        * {
+          font-family: 'Montserrat', sans-serif;
+        }
+
+        h1 {
+          text-align: center;
+          font-size: 48px;
+        }
+
+        h2 {
+          font-size: 36px;
+          text-align: center;
+          font-weight: 200;
+          color: #6e6d7a;
+        }
+
+        .name {
+          color: #F43F32;
+        }
+
+        .hand {
+          transform-origin: bottom center;
+          animation: shake 2s infinite;
+          display: inline-block;
+        }
+
+        @keyframes shake {
+          0% {
+            transform: rotate(-5deg);
+          }
+          25% {
+            transform: rotate(15deg);
+          }
+          50% {
+            transform: rotate(-10deg);
+          }
+          75% {
+            transform: rotate(15deg);
+          }
+          100% {
+            transform: rotate(-5deg);
+          }
+        }
+      </style>
+      <h1>Hi there! I'm <span class="name">Furqan</span> <span class="hand">👋</span></h1>
+      <h2>QA Automation Engineer @ Wahed</h2>
+    </div>
+  </foreignObject>
+</svg>
